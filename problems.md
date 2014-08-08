@@ -6,3 +6,26 @@
 自己一般遇到这种问题的解决方式是重写写一次。
 
 ## 第二个问题：图片的响应式变大变小。
+
+
+ARCHITECTURAL DESIGN
+
+URBAN DESIGN
+
+INTERIOR DESIGN
+
+ART DESIGN
+
+Awards Name
+
+exhibition
+
+PARTNERS
+
+FOUNDING PARTNER
+
+PROJECT PARTNERS
+
+ARCHITECTS
+
+这个team页面自己要是重新写过的。

@@ -131,8 +131,8 @@ body {font-family: "微软雅黑",Helvetica,Arial,sans-serif;line-height: 18px;f
 .mod-slide-content .mod-slide-nubbt span.on{background: #FFF;color: #000;}
 
 .lay-content{ width:100%; min-height:600px;}
-.lay-left{ float:left; width:26%; height:600px;padding: 60px 2% 0 2%; }
-.lay-right{ float:right; width:69%; min-height:600px; padding:40px 0 0 0;border-left:1px solid #CCC; }
+.lay-left{ float:left; width:23%; height:600px;padding: 60px 10px 0 10px; }
+.lay-right{ float:left; width:73%; min-height:600px; padding:40px 0 0 0;border-left:1px solid #CCC; }
 
 /* index mod-slide
  * author: alice
@@ -166,15 +166,63 @@ body {font-family: "微软雅黑",Helvetica,Arial,sans-serif;line-height: 18px;f
  */
 .mod-article-head{ border-bottom:1px solid #CCC; text-align:center; position:relative; margin:0 10px; } 
 .mod-article-head span{ margin:0 0 -12px 0; background: #FFF; padding:0 4px; font-size:16px; color: #CCC; position:relative; bottom:-12px; line-height:24px; height:24px;}
-.mod-article-list{ padding:30px 0;}
+.mod-article-list{padding:30px 20px;}
 
 
-/* new
+/* news-list
  * author: runkingzhang#163.com
  */
 .con-projects{ width:600px; margin:0  auto 10px auto;}
 .con-projects-details{ text-align:right; color:#BE1E2D}
+.con-projects-details-left{ text-align:left; color:#BE1E2D}
 .con-projects-imgwarp{ width:600px; max-height:300px; overflow:hidden; margin:5px 0;}
 .con-projects-imgwarp:hover{ margin:6px 0 5px 0;}
 .con-projects-img{ width:600px; max-height:300px; }
 .con-projects-des a{ color:#939598;}
+.con-projects-des a:hover{ text-decoration:none; color:  #666}
+.new-mod-article-list-awards .con-projects{ margin:0  auto 40px auto;}
+
+/* new-exhibition-list
+ * author: runkingzhang#163.com
+ */
+.new-con-projects-exhibition{ width:920px; margin:0  auto 0 auto;zoom:1;}
+.new-con-projects-exhibition:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.new-con-projects-exhibition .con-projects-imgwarp{  float:left; display:inline;  width:410px; max-height:220px; overflow:hidden; margin:5px 0;}
+.new-con-projects-exhibition .con-projects-imgwarp img{width:430px; max-height:220px; }
+.new-con-projects-exhibition .con-projects-des{ width:410px; height:220px; float:left; display: inline; margin:0 0 0 10px; overflow:hidden;}
+
+/* 图片画框
+ * author: runkingzhang#163.com
+ */
+.con-category{ margin:0 0 10px 0;}
+.con-category-head{ font-weight:normal; color:#9B9B9B; line-height:24px; text-indent:20px;}
+.con-category-head a{color:#9B9B9B; }
+.con-category-head a:hover{text-decoration:none; color:#BE1E2D;}
+.con-category-list:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.con-category-list {zoom:1; margin:0 auto; width:890px; cursor:pointer; }
+.con-category-list :hover .con-category-item-des{ display:block;}
+.con-category-item{ float:left; display:inline; margin:0 0 0 5px; position:relative;}
+.con-category-item img{ width:215px; height:160px;}
+.con-category-item-des{ display:none; width:100%; height:100px; position:absolute; top:0; left:0; text-align:center; background-color: rgba(220,206,212, 0.8); padding:60px 0 0 0; } 
+.con-category-item-des a{line-height:24px;color:#F1F1F1; font-weight:bold; }
+.con-category-item-des a:hover{text-decoration:none; color:#BE1E2D;}
+
+
+
+.con-profile{padding:0  60px;}
+.con-profile-photo{ width:340px; height:320px;}
+.con-profile p{ margin:18px 0 0 0;}
+.con-profile p span{ color:#999}
+.con-position{color:#BE1E2D; line-height:36px;  }
+.con-name{color:#DF9FA5}
+
+.con-team{ padding:0  10px 40px 30px; width:960px;}
+.con-team-head{ font-weight:500; color:#9B9B9B; line-height:24px; }
+.con-team-list{zoom:1; margin:0 auto; cursor:pointer; }
+.con-team-list:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.con-team-item{float:left; display:inline; margin:0 5px 0  0; }
+.con-team-item img{ width:130xp;}
+
+.con-team-item-des h4{ color: #818085; font-size:12px;}
+.con-team-item-des a{ color:#ABABAD; }
+.con-team-item-des a:hover{ color:#BE1E2D;}
